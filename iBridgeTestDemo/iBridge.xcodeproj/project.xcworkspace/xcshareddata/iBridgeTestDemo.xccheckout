@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>56EFC59C-9F68-40F8-B062-7026AB271ACD</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>77cf1621-ca3f-614d-b037-594d61eff68e++6440</key>
+		<string>https://192.168.0.13/svn/Android_BL/Branches/TrunkBranches/iBridge_BLE</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>77cf1621-ca3f-614d-b037-594d61eff68e++6440</key>
+		<string>project.xcworkspace/</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>77cf1621-ca3f-614d-b037-594d61eff68e++6440</key>
+		<string>https://192.168.0.13/svn/Android_BL</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://192.168.0.13/svn/Android_BL/Branches/TrunkBranches/iBridge_BLE</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>77cf1621-ca3f-614d-b037-594d61eff68e++6440</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>77cf1621-ca3f-614d-b037-594d61eff68e++6440</string>
+			<key>IDESourceControlWCCName</key>
+			<string>project.xcworkspace</string>
+		</dict>
+	</array>
+</dict>
+</plist>

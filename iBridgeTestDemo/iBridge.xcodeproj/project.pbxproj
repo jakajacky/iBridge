@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C04253219552BB200035F0A /* libiBridgeLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C04253119552BB200035F0A /* libiBridgeLib.a */; };
+		4C5525B918ACA2F500E20769 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5525B818ACA2F500E20769 /* CoreBluetooth.framework */; };
+		4C5525BB18ACAA3300E20769 /* pw_maze_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C5525BA18ACAA3200E20769 /* pw_maze_white.png */; };
+		4C6BFEE818AC6CC700BC1EBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6BFEE718AC6CC700BC1EBF /* Foundation.framework */; };
+		4C6BFEEA18AC6CC700BC1EBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6BFEE918AC6CC700BC1EBF /* CoreGraphics.framework */; };
+		4C6BFEEC18AC6CC700BC1EBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6BFEEB18AC6CC700BC1EBF /* UIKit.framework */; };
+		4C6BFEF218AC6CC700BC1EBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C6BFEF018AC6CC700BC1EBF /* InfoPlist.strings */; };
+		4C6BFEF418AC6CC700BC1EBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BFEF318AC6CC700BC1EBF /* main.m */; };
+		4C6BFEF818AC6CC700BC1EBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BFEF718AC6CC700BC1EBF /* AppDelegate.m */; };
+		4C6BFEFB18AC6CC700BC1EBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6BFEF918AC6CC700BC1EBF /* Main.storyboard */; };
+		4C6BFEFE18AC6CC700BC1EBF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BFEFD18AC6CC700BC1EBF /* MainViewController.m */; };
+		4C6BFF0018AC6CC700BC1EBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6BFEFF18AC6CC700BC1EBF /* Images.xcassets */; };
+		4C6BFF2718AC9A1500BC1EBF /* logo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6BFF2618AC9A1500BC1EBF /* logo2.jpg */; };
+		4C6BFF2A18AC9DE400BC1EBF /* BLEGATTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BFF2918AC9DE400BC1EBF /* BLEGATTViewController.m */; };
+		991338101BFF084800D34315 /* BLECharacteristicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9913380D1BFF084800D34315 /* BLECharacteristicViewController.m */; };
+		991338131BFF088700D34315 /* BLECustomServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991338121BFF088700D34315 /* BLECustomServiceViewController.m */; };
+		991338161BFF0A8400D34315 /* BLEPedometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991338151BFF0A8400D34315 /* BLEPedometerViewController.m */; };
+		99302A7C1BAFB9A0001AAF50 /* EASessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99302A7B1BAFB9A0001AAF50 /* EASessionViewController.m */; };
+		9933EB9A1BF8365900156A75 /* google_circles.png in Resources */ = {isa = PBXBuildFile; fileRef = 9933EB991BF8365900156A75 /* google_circles.png */; };
+		9933EB9C1BF836D200156A75 /* bird_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 9933EB9B1BF836D200156A75 /* bird_red.png */; };
+		99E69CB81BF496E3001E288F /* BLEDevicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E69CB71BF496E3001E288F /* BLEDevicesViewController.m */; };
+		99E69CBE1BF5D208001E288F /* BLEServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E69CBD1BF5D208001E288F /* BLEServicesViewController.m */; };
+		99EB95431BB4EF7D008CD6B0 /* BLEPeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EB95421BB4EF7D008CD6B0 /* BLEPeripheralViewController.m */; };
+		99EDC4661BFB4D48006E89FE /* BLEHRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EDC4651BFB4D48006E89FE /* BLEHRViewController.m */; };
+		99EEB04E1C2D14C6008994B7 /* BLEBeaconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EEB04D1C2D14C6008994B7 /* BLEBeaconViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C04253119552BB200035F0A /* libiBridgeLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiBridgeLib.a; path = iBridgeTestDemo/libiBridgeLib.a; sourceTree = "<group>"; };
+		4C5525B818ACA2F500E20769 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		4C5525BA18ACAA3200E20769 /* pw_maze_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pw_maze_white.png; sourceTree = "<group>"; };
+		4C5525BC18B6EDBA00E20769 /* BLEGATTService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEGATTService.h; sourceTree = "<group>"; };
+		4C6BFEE418AC6CC700BC1EBF /* iBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6BFEE718AC6CC700BC1EBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C6BFEE918AC6CC700BC1EBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C6BFEEB18AC6CC700BC1EBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C6BFEEF18AC6CC700BC1EBF /* iBridge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBridge-Info.plist"; sourceTree = "<group>"; };
+		4C6BFEF118AC6CC700BC1EBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C6BFEF318AC6CC700BC1EBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C6BFEF518AC6CC700BC1EBF /* iBridge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBridge-Prefix.pch"; sourceTree = "<group>"; };
+		4C6BFEF618AC6CC700BC1EBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C6BFEF718AC6CC700BC1EBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C6BFEFA18AC6CC700BC1EBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C6BFEFC18AC6CC700BC1EBF /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4C6BFEFD18AC6CC700BC1EBF /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4C6BFEFF18AC6CC700BC1EBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C6BFF0618AC6CC700BC1EBF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4C6BFF2618AC9A1500BC1EBF /* logo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo2.jpg; sourceTree = "<group>"; };
+		4C6BFF2818AC9DE400BC1EBF /* BLEGATTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEGATTViewController.h; sourceTree = "<group>"; };
+		4C6BFF2918AC9DE400BC1EBF /* BLEGATTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEGATTViewController.m; sourceTree = "<group>"; };
+		9913380B1BFF084800D34315 /* BLEAdvertisementData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEAdvertisementData.h; sourceTree = "<group>"; };
+		9913380C1BFF084800D34315 /* BLECharacteristicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLECharacteristicViewController.h; sourceTree = "<group>"; };
+		9913380D1BFF084800D34315 /* BLECharacteristicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLECharacteristicViewController.m; sourceTree = "<group>"; };
+		9913380E1BFF084800D34315 /* BLECustomService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLECustomService.h; sourceTree = "<group>"; };
+		9913380F1BFF084800D34315 /* BLEService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEService.h; sourceTree = "<group>"; };
+		991338111BFF088700D34315 /* BLECustomServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLECustomServiceViewController.h; sourceTree = "<group>"; };
+		991338121BFF088700D34315 /* BLECustomServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLECustomServiceViewController.m; sourceTree = "<group>"; };
+		991338141BFF0A8400D34315 /* BLEPedometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEPedometerViewController.h; sourceTree = "<group>"; };
+		991338151BFF0A8400D34315 /* BLEPedometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEPedometerViewController.m; sourceTree = "<group>"; };
+		99302A7B1BAFB9A0001AAF50 /* EASessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EASessionViewController.m; sourceTree = "<group>"; };
+		99302A7D1BAFB9C7001AAF50 /* EASessionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EASessionViewController.h; sourceTree = "<group>"; };
+		9933EB991BF8365900156A75 /* google_circles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google_circles.png; sourceTree = "<group>"; };
+		9933EB9B1BF836D200156A75 /* bird_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_red.png; sourceTree = "<group>"; };
+		99B57BAA1BABC7BA0097C74E /* EASessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASessionController.h; sourceTree = "<group>"; };
+		99E69CB61BF496E3001E288F /* BLEDevicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDevicesViewController.h; sourceTree = "<group>"; };
+		99E69CB71BF496E3001E288F /* BLEDevicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDevicesViewController.m; sourceTree = "<group>"; };
+		99E69CBC1BF5D208001E288F /* BLEServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEServicesViewController.h; sourceTree = "<group>"; };
+		99E69CBD1BF5D208001E288F /* BLEServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEServicesViewController.m; sourceTree = "<group>"; };
+		99EB95421BB4EF7D008CD6B0 /* BLEPeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEPeripheralViewController.m; sourceTree = "<group>"; };
+		99EB95451BB4EFCB008CD6B0 /* BLEPeripheralViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEPeripheralViewController.h; sourceTree = "<group>"; };
+		99EB95461BB5059E008CD6B0 /* BLEPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEPeripheralManager.h; sourceTree = "<group>"; };
+		99EDC4641BFB4D48006E89FE /* BLEHRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEHRViewController.h; sourceTree = "<group>"; };
+		99EDC4651BFB4D48006E89FE /* BLEHRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEHRViewController.m; sourceTree = "<group>"; };
+		99EDC4671BFB5456006E89FE /* BLEHRMeasurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEHRMeasurement.h; sourceTree = "<group>"; };
+		99EDC4681BFB5456006E89FE /* BLEHRService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEHRService.h; sourceTree = "<group>"; };
+		99EEB04C1C2D14C6008994B7 /* BLEBeaconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEBeaconViewController.h; sourceTree = "<group>"; };
+		99EEB04D1C2D14C6008994B7 /* BLEBeaconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEBeaconViewController.m; sourceTree = "<group>"; };
+		99F78FA81BF4638700D7EF66 /* BLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6BFEE118AC6CC700BC1EBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C04253219552BB200035F0A /* libiBridgeLib.a in Frameworks */,
+				4C5525B918ACA2F500E20769 /* CoreBluetooth.framework in Frameworks */,
+				4C6BFEEA18AC6CC700BC1EBF /* CoreGraphics.framework in Frameworks */,
+				4C6BFEEC18AC6CC700BC1EBF /* UIKit.framework in Frameworks */,
+				4C6BFEE818AC6CC700BC1EBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C6BFEDB18AC6CC700BC1EBF = {
+			isa = PBXGroup;
+			children = (
+				4C6BFEED18AC6CC700BC1EBF /* iBridge */,
+				4C6BFEE618AC6CC700BC1EBF /* Frameworks */,
+				4C6BFEE518AC6CC700BC1EBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C6BFEE518AC6CC700BC1EBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6BFEE418AC6CC700BC1EBF /* iBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C6BFEE618AC6CC700BC1EBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C04253119552BB200035F0A /* libiBridgeLib.a */,
+				4C5525B818ACA2F500E20769 /* CoreBluetooth.framework */,
+				4C6BFEE718AC6CC700BC1EBF /* Foundation.framework */,
+				4C6BFEE918AC6CC700BC1EBF /* CoreGraphics.framework */,
+				4C6BFEEB18AC6CC700BC1EBF /* UIKit.framework */,
+				4C6BFF0618AC6CC700BC1EBF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C6BFEED18AC6CC700BC1EBF /* iBridge */ = {
+			isa = PBXGroup;
+			children = (
+				99E69CB61BF496E3001E288F /* BLEDevicesViewController.h */,
+				99E69CB71BF496E3001E288F /* BLEDevicesViewController.m */,
+				99E69CBC1BF5D208001E288F /* BLEServicesViewController.h */,
+				99E69CBD1BF5D208001E288F /* BLEServicesViewController.m */,
+				991338141BFF0A8400D34315 /* BLEPedometerViewController.h */,
+				991338151BFF0A8400D34315 /* BLEPedometerViewController.m */,
+				99EDC4641BFB4D48006E89FE /* BLEHRViewController.h */,
+				99EDC4651BFB4D48006E89FE /* BLEHRViewController.m */,
+				4C6BFF2818AC9DE400BC1EBF /* BLEGATTViewController.h */,
+				4C6BFF2918AC9DE400BC1EBF /* BLEGATTViewController.m */,
+				991338111BFF088700D34315 /* BLECustomServiceViewController.h */,
+				991338121BFF088700D34315 /* BLECustomServiceViewController.m */,
+				9913380C1BFF084800D34315 /* BLECharacteristicViewController.h */,
+				9913380D1BFF084800D34315 /* BLECharacteristicViewController.m */,
+				99EB95451BB4EFCB008CD6B0 /* BLEPeripheralViewController.h */,
+				99EEB04C1C2D14C6008994B7 /* BLEBeaconViewController.h */,
+				99EEB04D1C2D14C6008994B7 /* BLEBeaconViewController.m */,
+				99EB95421BB4EF7D008CD6B0 /* BLEPeripheralViewController.m */,
+				99302A7D1BAFB9C7001AAF50 /* EASessionViewController.h */,
+				99302A7B1BAFB9A0001AAF50 /* EASessionViewController.m */,
+				4C6BFEF618AC6CC700BC1EBF /* AppDelegate.h */,
+				4C6BFEF718AC6CC700BC1EBF /* AppDelegate.m */,
+				4C6BFEF918AC6CC700BC1EBF /* Main.storyboard */,
+				4C6BFEFC18AC6CC700BC1EBF /* MainViewController.h */,
+				4C6BFEFD18AC6CC700BC1EBF /* MainViewController.m */,
+				99F78FA81BF4638700D7EF66 /* BLEManager.h */,
+				4C5525BC18B6EDBA00E20769 /* BLEGATTService.h */,
+				99EB95461BB5059E008CD6B0 /* BLEPeripheralManager.h */,
+				99B57BAA1BABC7BA0097C74E /* EASessionController.h */,
+				99EDC4671BFB5456006E89FE /* BLEHRMeasurement.h */,
+				99EDC4681BFB5456006E89FE /* BLEHRService.h */,
+				9913380B1BFF084800D34315 /* BLEAdvertisementData.h */,
+				9913380E1BFF084800D34315 /* BLECustomService.h */,
+				9913380F1BFF084800D34315 /* BLEService.h */,
+				4C6BFEFF18AC6CC700BC1EBF /* Images.xcassets */,
+				4C6BFEEE18AC6CC700BC1EBF /* Supporting Files */,
+			);
+			name = iBridge;
+			path = iBridgeTestDemo;
+			sourceTree = "<group>";
+		};
+		4C6BFEEE18AC6CC700BC1EBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9933EB9B1BF836D200156A75 /* bird_red.png */,
+				9933EB991BF8365900156A75 /* google_circles.png */,
+				4C6BFEEF18AC6CC700BC1EBF /* iBridge-Info.plist */,
+				4C6BFEF018AC6CC700BC1EBF /* InfoPlist.strings */,
+				4C5525BA18ACAA3200E20769 /* pw_maze_white.png */,
+				4C6BFEF318AC6CC700BC1EBF /* main.m */,
+				4C6BFF2618AC9A1500BC1EBF /* logo2.jpg */,
+				4C6BFEF518AC6CC700BC1EBF /* iBridge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C6BFEE318AC6CC700BC1EBF /* iBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6BFF1618AC6CC700BC1EBF /* Build configuration list for PBXNativeTarget "iBridge" */;
+			buildPhases = (
+				4C6BFEE018AC6CC700BC1EBF /* Sources */,
+				4C6BFEE118AC6CC700BC1EBF /* Frameworks */,
+				4C6BFEE218AC6CC700BC1EBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBridge;
+			productName = iBridgeTestDemo;
+			productReference = 4C6BFEE418AC6CC700BC1EBF /* iBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C6BFEDC18AC6CC700BC1EBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = IVT;
+				TargetAttributes = {
+					4C6BFEE318AC6CC700BC1EBF = {
+						DevelopmentTeam = 7PJR3Z7B43;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4C6BFEDF18AC6CC700BC1EBF /* Build configuration list for PBXProject "iBridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C6BFEDB18AC6CC700BC1EBF;
+			productRefGroup = 4C6BFEE518AC6CC700BC1EBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C6BFEE318AC6CC700BC1EBF /* iBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6BFEE218AC6CC700BC1EBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6BFF0018AC6CC700BC1EBF /* Images.xcassets in Resources */,
+				4C6BFEF218AC6CC700BC1EBF /* InfoPlist.strings in Resources */,
+				4C6BFEFB18AC6CC700BC1EBF /* Main.storyboard in Resources */,
+				4C5525BB18ACAA3300E20769 /* pw_maze_white.png in Resources */,
+				9933EB9A1BF8365900156A75 /* google_circles.png in Resources */,
+				4C6BFF2718AC9A1500BC1EBF /* logo2.jpg in Resources */,
+				9933EB9C1BF836D200156A75 /* bird_red.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6BFEE018AC6CC700BC1EBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991338161BFF0A8400D34315 /* BLEPedometerViewController.m in Sources */,
+				99EDC4661BFB4D48006E89FE /* BLEHRViewController.m in Sources */,
+				99EEB04E1C2D14C6008994B7 /* BLEBeaconViewController.m in Sources */,
+				4C6BFF2A18AC9DE400BC1EBF /* BLEGATTViewController.m in Sources */,
+				4C6BFEFE18AC6CC700BC1EBF /* MainViewController.m in Sources */,
+				4C6BFEF818AC6CC700BC1EBF /* AppDelegate.m in Sources */,
+				99E69CBE1BF5D208001E288F /* BLEServicesViewController.m in Sources */,
+				99E69CB81BF496E3001E288F /* BLEDevicesViewController.m in Sources */,
+				99302A7C1BAFB9A0001AAF50 /* EASessionViewController.m in Sources */,
+				99EB95431BB4EF7D008CD6B0 /* BLEPeripheralViewController.m in Sources */,
+				4C6BFEF418AC6CC700BC1EBF /* main.m in Sources */,
+				991338101BFF084800D34315 /* BLECharacteristicViewController.m in Sources */,
+				991338131BFF088700D34315 /* BLECustomServiceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C6BFEF018AC6CC700BC1EBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6BFEF118AC6CC700BC1EBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C6BFEF918AC6CC700BC1EBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6BFEFA18AC6CC700BC1EBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C6BFF1418AC6CC700BC1EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yong Zhu (QXA94YBXG9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yong Zhu (QXA94YBXG9)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C6BFF1518AC6CC700BC1EBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yong Zhu (QXA94YBXG9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yong Zhu (QXA94YBXG9)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C6BFF1718AC6CC700BC1EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7PJR3Z7B43;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBridgeTestDemo/iBridge-Prefix.pch";
+				INFOPLIST_FILE = "iBridgeTestDemo/iBridge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					iBridgeTestDemo,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xjp.iMeeting1232222;
+				PRODUCT_NAME = iBridge;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C6BFF1818AC6CC700BC1EBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7PJR3Z7B43;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBridgeTestDemo/iBridge-Prefix.pch";
+				INFOPLIST_FILE = "iBridgeTestDemo/iBridge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					iBridgeTestDemo,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xjp.iMeeting1232222;
+				PRODUCT_NAME = iBridge;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C6BFEDF18AC6CC700BC1EBF /* Build configuration list for PBXProject "iBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6BFF1418AC6CC700BC1EBF /* Debug */,
+				4C6BFF1518AC6CC700BC1EBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6BFF1618AC6CC700BC1EBF /* Build configuration list for PBXNativeTarget "iBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6BFF1718AC6CC700BC1EBF /* Debug */,
+				4C6BFF1818AC6CC700BC1EBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C6BFEDC18AC6CC700BC1EBF /* Project object */;
+}
